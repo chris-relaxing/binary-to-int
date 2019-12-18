@@ -21,8 +21,7 @@ fun binaryToInt(binaryDigits: String): Int {
 
 fun main() {
     println("Welcome to the Kotlin binary to int converter")
-    // val binaryStringValue = binaryToInt("1111111111111111")
-    val binaryStringValue = binaryToInt("011000000000000000")
-    print("The value of the binary string is: ")
-    println(binaryStringValue)
+    val binaryStringValue = binaryToInt("10011011")
+    println("The value of the binary string is: $binaryStringValue")
+
 }
